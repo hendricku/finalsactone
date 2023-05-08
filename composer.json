@@ -1,0 +1,19 @@
+{
+    "name": "hendy/info",
+    "description": "infoman act 1",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Hendy\\Info\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hendrick"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "google/cloud-firestore": "^1.32"
+    }
+}
